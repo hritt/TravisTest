@@ -8,6 +8,7 @@ def test():
     while i < 10:
         print 'i:', i
         time.sleep(1)
+        i += 1
     print '--end--'
 
 
